@@ -41,13 +41,13 @@ public:
     }
 };
 
-class Monster; // Предварительное объявление класса Monster
+class Monster; 
 
 class Player : public Creature {
 private:
     int minDamage;
     int maxDamage;
-    int healCount; // Добавляем счетчик для отслеживания количества лечений
+    int healCount;
 
 public:
     Player(int attack, int defense, int health, int minDamage, int maxDamage)
