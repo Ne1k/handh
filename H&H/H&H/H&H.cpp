@@ -12,7 +12,7 @@ protected:
 
 public:
     Creature(int attack, int defense, int health) : attack(attack), defense(defense), health(health) {
-        srand(static_cast<unsigned>(time(0))); // Для генерации случайных чисел
+        srand(static_cast<unsigned>(time(0)));
     }
 
     bool isAlive() const {
